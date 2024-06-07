@@ -287,8 +287,26 @@ li:first-child {
 
 .projects .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3rem;
+  row-gap: 2rem;
+}
+.projects .left {
+  display: table-cell;
+}
+.projects .left .title {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+}
+.projects .left .subtitle {
+  font-size: 16px;
+  font-weight: lighter;
+  display: block;
+}
+.projects .right {
+  text-align: right;
+  display: table-cell;
 }
 
 .links ul {
