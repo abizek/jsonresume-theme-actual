@@ -285,6 +285,12 @@ li:first-child {
   line-height: 1.6em;
 }
 
+.projects .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
 .links ul {
   list-style: none;
 }
