@@ -1,11 +1,4 @@
 .projects {
-  .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 3rem;
-    row-gap: 2rem;
-  }
-
   .left {
     display: table-cell;
 
@@ -25,5 +18,13 @@
   .right {
     text-align: right;
     display: table-cell;
+  }
+
+  .article {
+    width: 300px;
+  }
+
+  .margin-container-15:not(:last-child) {
+    margin-bottom: 1.5rem;
   }
 }

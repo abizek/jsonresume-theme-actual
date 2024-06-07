@@ -88,6 +88,10 @@ li:first-child {
   margin: 0 0 20px 0;
 }
 
+.margin-container-1:not(:first-child) {
+  margin-top: 10px;
+}
+
 .margin-container-2:not(:first-child) {
   margin-top: 20px;
 }
@@ -285,12 +289,6 @@ li:first-child {
   line-height: 1.6em;
 }
 
-.projects .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 3rem;
-  row-gap: 2rem;
-}
 .projects .left {
   display: table-cell;
 }
@@ -307,6 +305,12 @@ li:first-child {
 .projects .right {
   text-align: right;
   display: table-cell;
+}
+.projects .article {
+  width: 300px;
+}
+.projects .margin-container-15:not(:last-child) {
+  margin-bottom: 1.5rem;
 }
 
 .links ul {

@@ -1,9 +1,9 @@
 if helper.validArray(resume.projects)
-  div(class='projects margin-container-2')
+  div(class='projects margin-container-1')
     p(class='section-title no-alone-2') Projects
-    div(class='container')
+    div(class='container',data-masonry='{ "itemSelector": ".article", "columnWidth": 300, "gutter": 48, "horizontalOrder": true }')
       each project in resume.projects
-        div(class='article')
+        div(class='article margin-container-15')
           div(class='header no-alone-1')
             div(class='table')
               div(class='left')
