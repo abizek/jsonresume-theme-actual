@@ -20,7 +20,8 @@
     "test": "jest",
     "test:watch": "jest --watchAll",
     "gulp": "gulp",
-    "gulp:css": "gulp css"
+    "gulp:css": "gulp css",
+    "watch": "onchange -i -k 'resume.json' -- resume export resume.pdf --format pdf --theme ."
   },
   "license": "MIT",
   "dependencies": {
@@ -36,6 +37,7 @@
     "gulp-sass": "^5.1.0",
     "html-validate": "^7.1.1",
     "jest": "^28.1.1",
+    "onchange": "^7.1.0",
     "sass": "^1.66.1"
   }
 }
