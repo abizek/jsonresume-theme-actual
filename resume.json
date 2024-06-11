@@ -2,10 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
   "basics": {
     "name": "Abishek Ilango",
-    "label": "Senior Software Engineer",
+    "label": "Frontend Developer",
     "email": "abishekilango@protonmail.com",
     "phone": "+91-8778419911",
-    "summary": "Senior software engineer with 3+ years of experience building and maintaining complex web and web-native apps using React and a vast ecosystem of UI libraries, testing frameworks, and build tools. Contributes to open-source, picks up new skills quickly, thrives on cross-functional teams, serves as a force multiplier, aims to 1.1x the team's output daily, and spearheads UI/UX and DX projects.",
+    "summary": "3+ years of experience building and maintaining complex web and web-native apps using React and a vast ecosystem of UI libraries, testing frameworks, and build tools. Contributes to open-source, picks up new skills quickly, thrives on cross-functional teams, serves as a force multiplier, aims to 1.1x the team's output daily, and spearheads UI/UX and DX projects.",
     "location": {
       "city": "Bengaluru",
       "countryCode": "India",
